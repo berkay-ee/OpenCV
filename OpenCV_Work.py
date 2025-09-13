@@ -77,7 +77,7 @@ else:
             else:
                 print("No captured image to combine.")
 
-
+        # resize and show a combine image of gray and colored
         elif key == ord('e'):
              
              if os.path.exists("captured_image.jpg"):
